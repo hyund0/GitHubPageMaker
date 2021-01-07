@@ -1,0 +1,3 @@
+[submodule "output"]
+	path = output
+	url = https://github.com/hyund0/hyund0.github.io.git

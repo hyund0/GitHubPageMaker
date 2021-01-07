@@ -103,16 +103,18 @@ feed:
 safe: False
 lsi: False
 
+
+#github user name
 username: hyund0
 repo: GitHubPageMaker
 branch: master
 relative_source: 
-destination: ../[GitHubPage]/
+destination: ./output/
 
 
 exclude:
   - README.md
-  - Rakefile
+  #- Rakefile
   - Gemfile
   - Gemfile.lock  
   - changelog.md
@@ -129,4 +131,4 @@ exclude:
   - _posts/economy
   - node_modules
   - vendor
-  - .travis.yml
+  #- .travis.yml
